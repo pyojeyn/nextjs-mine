@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
+            안녕 Next.js 입문쓰.
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
