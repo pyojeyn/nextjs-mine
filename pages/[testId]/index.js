@@ -1,11 +1,14 @@
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 
-export default function Test(){
+// 0728 test야
+export default function Test() {
+  const router = useRouter();
 
+  const testId = router.query.testId;
 
-    const router = useRouter();
-
-    const testId = router.query.testId;
-
-    return <><h1>Test : {testId}</h1></>
+  return (
+    <>
+      <h1>Test : {testId}</h1>
+    </>
+  );
 }
